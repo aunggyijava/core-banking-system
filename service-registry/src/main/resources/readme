@@ -1,0 +1,15 @@
+1. Verify the Eureka Dashboard
+
+Open your browser and navigate to:
+http://localhost:8761
+You should see the Eureka dashboard, showing that the registry is running but with no registered services yet.
+
+2. Register Other Services
+
+When creating other services (e.g., account-service, customer-service), add the Eureka client dependency and 
+configure the application.yml to point to the Service Registry:
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
