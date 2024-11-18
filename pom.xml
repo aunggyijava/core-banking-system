@@ -26,6 +26,9 @@
 		<module>transaction-service</module>
 		<module>notification-service</module>
 		<module>loan-service</module>
+		<module>job-service</module>
+		<module>user-service</module>
+		<module>file-storage</module>
 	</modules>
 
 	<dependencies>
