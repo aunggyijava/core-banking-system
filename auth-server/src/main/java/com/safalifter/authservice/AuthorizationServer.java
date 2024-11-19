@@ -9,9 +9,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 //@EnableEurekaClient
 @EnableDiscoveryClient
-public class AuthServiceApplication {
+public class AuthorizationServer {
 
     public static void main(String[] args) {
-        SpringApplication.run(AuthServiceApplication.class, args);
+        SpringApplication.run(AuthorizationServer.class, args);
     }
 }
